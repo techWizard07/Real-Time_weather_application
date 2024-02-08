@@ -1,0 +1,77 @@
+.weather-image{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.weather-image img{
+    height:150px;
+    padding: 25px 0;
+}
+.desc,.temp, .location, .country{
+    color:#333;
+    margin-top:5px;
+    
+    text-transform: uppercase;
+    text-align: center;
+}
+.desc{
+    color:#666;
+    font-weight: 300;
+    padding-bottom: 10px;
+    font-size:14px;
+}
+.temp{
+    font-size: 35px;
+    font-weight: 700;
+}
+.location{
+    color:#ffbc00;
+    font-size: 40px;
+    font-weight: 400;
+}
+.country{
+    color:#888;
+    font-weight: 400;
+    font-size:25px
+}
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:10px;
+    margin-top: 10px;
+}
+.cord div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.cord div span{
+    font-size: 14px;
+}
+.humidity-percent,
+.wind-percent,
+.cord div span:nth-child(2){
+    font-size: 18px;
+    color:#666;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.element{
+    text-align: center;
+}
+.element img{
+    height:35px;
+}
+.element .text{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
